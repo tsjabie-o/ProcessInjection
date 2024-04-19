@@ -6,4 +6,4 @@ A collection of projects containing source code for different methods of perform
 - **SysCall_Inject**: Removes API calls altoghether and instead directly uses the syscalls that NTDLL uses. Those calls are written in an assembly file, so you might need to change those to work on your specific system.
 - **InjectDLL**: Uses the Win32 API to have another process load a 'malicious' DLL file which executes some arbitrary code.
 
-While still a work in progress, over on [this gitbook](https://xavi-oorthuis.gitbook.io/malware-development) i will eventually write up my own tutorial on ProcessInjection, along with explanation of all the code.
+While still a work in progress, over in [this gitbook](https://xavi-oorthuis.gitbook.io/malware-development) I will eventually write up my own tutorial on ProcessInjection, along with explanation of all the code.
